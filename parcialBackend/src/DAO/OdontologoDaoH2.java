@@ -22,8 +22,8 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
 
     private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
-    private final static String DB_USER ="admin";
-    private final static String DB_PASSWORD = "admin";
+    private final static String DB_USER ="sa";
+    private final static String DB_PASSWORD = "";
 
 
     @Override
