@@ -1,0 +1,20 @@
+[2023-05-25 21:31:31] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:31:31] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:31:31] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:33:22] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:33:22] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:33:22] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:37:04] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:37:04] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:37:04] [ ERROR] [OdontologoDaoH2:59] Se encontró un error
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:38] Conectando con la base de datos.
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:49] Datos Ingresados Correctamente
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:55] Cerrando la base de datos.
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:38] Conectando con la base de datos.
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:49] Datos Ingresados Correctamente
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:55] Cerrando la base de datos.
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:38] Conectando con la base de datos.
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:49] Datos Ingresados Correctamente
+[2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:55] Cerrando la base de datos.
+[2023-05-25 23:21:53] [ INFO ] [OdontologoDaoH2:88] Listado de odontologos [Odontologo {Id= 1, Numero de Matricula='23905798', Nombre='JOSE', Apellido='ARIAS'}, Odontologo {Id= 2, Numero de Matricula='123125', Nombre='JULIETA', Apellido='BACHUR'}, Odontologo {Id= 3, Numero de Matricula='D4325', Nombre='HOMERO', Apellido='PETTINATO'}]
+[2023-05-25 23:22:26] [ INFO ] [OdontologoDaoH2:88] Listado de odontologos [Odontologo {Id= 1, Numero de Matricula='23905798', Nombre='JOSE', Apellido='ARIAS'}, Odontologo {Id= 2, Numero de Matricula='123125', Nombre='JULIETA', Apellido='BACHUR'}, Odontologo {Id= 3, Numero de Matricula='D4325', Nombre='HOMERO', Apellido='PETTINATO'}]

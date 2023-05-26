@@ -1,5 +1,5 @@
 
-package DAO;
+package com.parcialBackend.DAO;
 
 import com.parcialBackend.model.Odontologo;
 
@@ -20,7 +20,6 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
     private static final Logger logger = Logger.getLogger(OdontologoDaoH2.class);
     private final static String DB_JDBC_DRIVER = "org.h2.Driver";
-
     private final static String DB_URL = "jdbc:h2:~/test;INIT=RUNSCRIPT FROM 'create.sql'";
     private final static String DB_USER ="sa";
     private final static String DB_PASSWORD = "";
@@ -68,14 +67,13 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
     public List<Odontologo> listar() {
 
         Connection connection = null;
-        PreparedStatement preparedStatement = null;
+
         List<Odontologo> odontologos = new ArrayList<>();
 
         try {
             Class.forName(DB_JDBC_DRIVER);
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
-
-            preparedStatement = connection.prepareStatement("SELECT * FROM Odontologos");
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM Odontologos");
             ResultSet result = preparedStatement.executeQuery();
 
             while (result.next()) {
@@ -86,13 +84,19 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
 
                 Odontologo odontologo = new Odontologo(numeroMatricula, nombre, apellido, id);
                 odontologos.add(odontologo);
-
-
             }
+            logger.info("Listado de odontologos " + odontologos);
 
-            preparedStatement.close();
-        } catch (SQLException | ClassNotFoundException throwables) {
-            throwables.printStackTrace();
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+            e.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (Exception ex) {
+                logger.error("No se pudo cerrar la base de datos " + ex.getMessage());
+                ex.printStackTrace();
+            }
         }
         return odontologos;
     }

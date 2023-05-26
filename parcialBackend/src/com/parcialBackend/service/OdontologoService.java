@@ -1,6 +1,6 @@
-package service;
+package com.parcialBackend.service;
 
-import DAO.IDao;
+import com.parcialBackend.DAO.IDao;
 import com.parcialBackend.model.Odontologo;
 
 import java.util.List;
