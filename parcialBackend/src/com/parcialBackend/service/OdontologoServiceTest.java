@@ -1,24 +1,21 @@
-package com.parcialBackend.TEST;
+package com.parcialBackend.service;
 
-import com.parcialBackend.DAO.OdontologoDaoH2;
+import com.parcialBackend.DAO.imp.OdontologoDaoH2;
 import com.parcialBackend.model.Odontologo;
-import org.junit.Test;
-import com.parcialBackend.service.OdontologoService;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class OdontologoServiceTest {
-
-
     private static OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
 
 
     @Test
     public void deberiaAgregarOdontologo(){
         Odontologo odontologo = new Odontologo("142536", "Homero", "Simpson" );
-        Odontologo odontologoResult = odontologoService.registrar(odontologo);
+        Odontologo odontologoResult = odontologoService.registrarOdontologo(odontologo);
         assertNotNull(odontologoResult);
         assertEquals(123456, odontologoResult.getNumeroMatricula());
 

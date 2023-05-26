@@ -18,3 +18,28 @@
 [2023-05-25 21:42:21] [ INFO ] [OdontologoDaoH2:55] Cerrando la base de datos.
 [2023-05-25 23:21:53] [ INFO ] [OdontologoDaoH2:88] Listado de odontologos [Odontologo {Id= 1, Numero de Matricula='23905798', Nombre='JOSE', Apellido='ARIAS'}, Odontologo {Id= 2, Numero de Matricula='123125', Nombre='JULIETA', Apellido='BACHUR'}, Odontologo {Id= 3, Numero de Matricula='D4325', Nombre='HOMERO', Apellido='PETTINATO'}]
 [2023-05-25 23:22:26] [ INFO ] [OdontologoDaoH2:88] Listado de odontologos [Odontologo {Id= 1, Numero de Matricula='23905798', Nombre='JOSE', Apellido='ARIAS'}, Odontologo {Id= 2, Numero de Matricula='123125', Nombre='JULIETA', Apellido='BACHUR'}, Odontologo {Id= 3, Numero de Matricula='D4325', Nombre='HOMERO', Apellido='PETTINATO'}]
+[2023-05-26 12:10:27] [ ERROR] [OdontologoDaoH2:87] La base de datos puede que ya esté siendo utilizada: "C:/Users/julie/parcialBackend.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/julie/parcialBackend.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 12:10:27] [ ERROR] [OdontologoDaoH2:93] No se pudo cerrar la base de datos Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 12:11:01] [ ERROR] [OdontologoDaoH2:87] La base de datos puede que ya esté siendo utilizada: "C:/Users/julie/parcialBackend.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/julie/parcialBackend.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 12:11:01] [ ERROR] [OdontologoDaoH2:93] No se pudo cerrar la base de datos Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 12:11:31] [ ERROR] [OdontologoDaoH2:87] La base de datos puede que ya esté siendo utilizada: "C:/Users/julie/parcialBackend.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/julie/parcialBackend.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 12:11:31] [ ERROR] [OdontologoDaoH2:93] No se pudo cerrar la base de datos Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 12:29:51] [ ERROR] [OdontologoDaoH2:87] La base de datos puede que ya esté siendo utilizada: "C:/Users/julie/parcialBackend.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/julie/parcialBackend.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 12:29:51] [ ERROR] [OdontologoDaoH2:93] No se pudo cerrar la base de datos Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-26 12:31:08] [ ERROR] [OdontologoDaoH2:87] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-26 12:31:41] [ ERROR] [OdontologoDaoH2:87] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-214]
+[2023-05-26 12:32:44] [ ERROR] [OdontologoDaoH2:87] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM odontologos [42104-214]
+[2023-05-26 12:34:17] [ ERROR] [OdontologoDaoH2:87] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM Odontologos [42104-214]
+[2023-05-26 12:48:22] [ ERROR] [OdontologoDaoH2:87] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM Odontologos [42104-214]
+[2023-05-26 12:48:59] [ ERROR] [OdontologoDaoH2:87] La base de datos puede que ya esté siendo utilizada: "C:/Users/julie/test.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/julie/test.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-26 12:48:59] [ ERROR] [OdontologoDaoH2:93] No se pudo cerrar la base de datos Cannot invoke "java.sql.Connection.close()" because "connection" is null

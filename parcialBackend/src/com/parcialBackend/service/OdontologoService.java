@@ -10,10 +10,12 @@ public class OdontologoService {
     private IDao<Odontologo> odontologoIDao;
 
     public OdontologoService(IDao<Odontologo> odontologoIDao) {
+
         this.odontologoIDao = odontologoIDao;
     }
 
-    public Odontologo registrar(Odontologo odontologo) {
+    public Odontologo registrarOdontologo(Odontologo odontologo) {
+
         return odontologoIDao.registrar(odontologo);
     }
 
@@ -21,4 +23,5 @@ public class OdontologoService {
         return odontologoIDao.listar();
     }
 }
+
 
